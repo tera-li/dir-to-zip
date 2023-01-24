@@ -27,4 +27,5 @@ npm unpublish（取消发布包）
 修改package中的version版本号
 x.y.z（大改，小改，补丁）
 再使用npm publish
+
 ```
