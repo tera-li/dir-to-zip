@@ -1,8 +1,8 @@
 {
   "name": "dir-to-zip",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "build directory to zip",
-  "main": "/src/index.js",
+  "main": "src/index.js",
   "types": "/types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,6 +24,9 @@
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
   },
+  "files": [
+    "src"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/hljinjiang/build-plugin.git"
