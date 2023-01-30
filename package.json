@@ -1,7 +1,7 @@
 {
-  "name": "build-plugin",
-  "version": "1.0.5",
-  "description": "",
+  "name": "dir-to-zip",
+  "version": "1.0.1",
+  "description": "build directory to zip",
   "main": "/src/index.js",
   "types": "/types/index.d.ts",
   "scripts": {
@@ -23,5 +23,9 @@
     "node-polyfill-webpack-plugin": "^2.0.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hljinjiang/build-plugin.git"
   }
 }
