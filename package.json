@@ -13,7 +13,7 @@
     "npm",
     "package"
   ],
-  "author": "",
+  "author": "hljinjiang",
   "license": "MIT",
   "dependencies": {
     "jszip": "^3.10.1"
