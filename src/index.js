@@ -42,7 +42,6 @@ class CustomPlugin {
   }
 
   toZip() {
-    console.log(this.props.dir);
     this.readDir(this.zip, path.resolve(this.props.dir));
     // 压缩
     this.zip
