@@ -1,5 +1,4 @@
-declare module czjs {
-    export function qq(params: string): string
-    export function qqq(params: string): string
+declare class BuildPlugin {
+  constructor({ a: string });
 }
-export = czjs
+export = BuildPlugin;
