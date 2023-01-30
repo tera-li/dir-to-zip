@@ -10,8 +10,10 @@
     "build:dev": "webpack --mode=development --progress"
   },
   "keywords": [
-    "npm",
-    "package"
+    "compress",
+    "build",
+    "zip",
+    "webpack-plugin"
   ],
   "author": "hljinjiang",
   "license": "MIT",
