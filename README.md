@@ -11,7 +11,10 @@ npm install dir-to-zip
 
 #### Use
 ```js
+// webpack.config.js
+
 const dirToZip = require("dir-to-zip");
+
 module.exports = {
     plugins: [
     new dirToZip({
