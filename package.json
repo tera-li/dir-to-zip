@@ -1,6 +1,6 @@
 {
   "name": "dir-to-zip",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "build directory to zip",
   "main": "src/index.js",
   "types": "/types/index.d.ts",
@@ -13,7 +13,8 @@
     "compress",
     "build",
     "zip",
-    "webpack-plugin"
+    "webpack-plugin",
+    "dir-to-zip"
   ],
   "author": "hljinjiang",
   "license": "MIT",
