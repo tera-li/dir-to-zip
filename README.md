@@ -6,7 +6,7 @@ This is a webpack build tool, build directory to zip
 
 #### Download
 ```
-npm install dir-to-zip
+npm install --save-dev dir-to-zip
 ```
 
 #### Use
