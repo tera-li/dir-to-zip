@@ -1,6 +1,6 @@
 {
   "name": "dir-to-zip",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "build directory to zip",
   "main": "src/index.js",
   "types": "/types/index.d.ts",
