@@ -8,6 +8,7 @@ class CustomPlugin {
     this.props = {
       dir: "./dist",
       zipName: "dist.zip",
+      level: 9,
       ...props,
     };
   }
@@ -44,17 +45,16 @@ class CustomPlugin {
   toZip() {
     this.readDir(this.zip, path.resolve(this.props.dir));
     // 压缩
-    this.zip
-      .generateAsync({
+    this.zip.generateAsync({
         // 压缩类型选择nodebuffer，在回调函数中会返回zip压缩包的Buffer的值，再利用fs保存至本地
         type: "nodebuffer",
         // 压缩算法
         compression: "DEFLATE",
         compressionOptions: {
-          level: 9,
+          // 压缩级别
+          level: this.props.level,
         },
-      })
-      .then((content) => {
+      }).then((content) => {
         // 将buffer写入.zip
         fs.writeFile(this.props.zipName, content, (err) => {
           if (!err) {

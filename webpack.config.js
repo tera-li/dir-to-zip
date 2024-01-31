@@ -18,7 +18,10 @@ module.exports = {
       template: __dirname + "/public/index.html",
       filename: "index.html",
     }),
-    new BuildPlugin(),
+    new BuildPlugin({
+      zipName: 'test-dist.zip',
+      level: 9
+    }),
   ],
 };
 console.log(process.env.NODE_ENV);
