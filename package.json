@@ -16,7 +16,7 @@
     "webpack-plugin",
     "dir-to-zip"
   ],
-  "author": "hljinjiang",
+  "author": "tera-li",
   "license": "MIT",
   "dependencies": {
     "jszip": "^3.10.1"
@@ -32,6 +32,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hljinjiang/build-plugin.git"
+    "url": "https://github.com/tera-li/dir-to-zip.git"
   }
 }
